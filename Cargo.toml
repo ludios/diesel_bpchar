@@ -1,0 +1,8 @@
+[package]
+name = "diesel_bpchar"
+version = "0.1.0"
+authors = ["Ivan Kozik <ivan@ludios.org>"]
+
+[dependencies]
+diesel = { version = "1.3.3", features = ["postgres"] }
+dotenv = "0.9.0"
